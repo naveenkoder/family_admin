@@ -1,0 +1,196 @@
+.home-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.sidebarBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 6px;
+  cursor: pointer;
+  margin: 6px 0;
+  background-color: transparent;
+}
+
+.sidebarBtn:hover {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.sidebarNestedBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 6px;
+  cursor: pointer;
+  margin: 6px 0;
+  background-color: transparent;
+}
+
+.sidebarNestedBtn:hover {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.sidebarNestedBtnSelected {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 6px;
+  cursor: pointer;
+  margin: 6px 0;
+  background-color: #f09C01;
+  -webkit-box-shadow: 0 12px 20px -10px rgba(232, 41, 83, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(0, 145, 224, 0.2);
+  box-shadow: 0 12px 20px -10px rgba(232, 41, 83, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(0, 145, 224, 0.2);
+  margin: 4px;
+  border-radius: 4px;
+}
+
+.sidebarBtnSelected {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 6px;
+  cursor: pointer;
+  margin: 6px 0;
+  background-color: #f09C01 !important;
+  -webkit-box-shadow: 0 12px 20px -10px rgba(232, 41, 83, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(0, 145, 224, 0.2);
+  box-shadow: 0 12px 20px -10px rgba(232, 41, 83, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(0, 145, 224, 0.2);
+  margin: 10px 3px;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.sidebarBtnIcon {
+  margin-right: 15px;
+  margin-left: 6px;
+}
+
+.breadIcon {
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+.sidebarBtnTextSelected {
+  line-height: 30px;
+  font-size: 16px;
+  margin-right: 0;
+  color: #ffffff;
+}
+
+.sidebarBtnText {
+  line-height: 30px;
+  font-size: 16px;
+  margin-right: 0;
+  color: #3c4858;
+}
+
+.sidebarBackground {
+  background-image: url("../../images/sidebarBg.jpg");
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  display: block;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center center;
+}
+
+.sidebarBackground:after {
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  content: "";
+  display: block;
+  background: #FFFFFF;
+  opacity: .93;
+}
+
+.MuiListItem-gutters {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.MuiListItem-root {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* box shadow for sidebar */
+.MuiDrawer-paperAnchorDockedLeft {
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.42), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.42), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2) !important;
+}
+
+.ant-breadcrumb {
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+.ant-breadcrumb-link {
+  color: #222222;
+  margin: 0 2px;
+  font-size: 18px;
+}
+
+.ant-breadcrumb-link:hover {
+  color: #222222;
+  text-decoration: none;
+}
+
+.ant-breadcrumb-separator {
+  color: #222222;
+  margin: 0 2px;
+  font-size: 21px;
+}
+
+.ant-input {
+  width: 30%;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.card-body {
+  margin-top: 1.25rem;
+}
+
+/*# sourceMappingURL=dashboardLayout.css.map */

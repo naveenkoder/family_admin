@@ -1,0 +1,61 @@
+
+/* button css  */
+.bttn {
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* login buttton */
+.loginBtn{
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  transition-duration: 0.4s;
+  cursor: pointer;
+background-color: #7F913F;
+  border: 2px solid #7F913F;
+  border-radius:4px;
+}
+
+.loginBtn:hover {
+background-color: #ffffff;
+ color: #7F913F;
+}
+
+.loginBtn:focus {
+    outline-color:  #7F913F;
+}
+
+.submitBtn{
+  margin-top: 3%;
+}
+
+
+
+/* Button styles */
+.MuiButton-containedPrimary {
+    color: #fff;
+    background-color: #7F913F !important;
+}
+
+.reset-password-form{
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.change-password-form{
+
+  width: 100% !important;
+}
